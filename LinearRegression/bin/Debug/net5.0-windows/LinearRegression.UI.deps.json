@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LinearRegression.UI/1.0.0": {
+        "dependencies": {
+          "LinearRegression.Algorithm": "1.0.0"
+        },
+        "runtime": {
+          "LinearRegression.UI.dll": {}
+        }
+      },
+      "LinearRegression.Algorithm/1.0.0": {
+        "runtime": {
+          "LinearRegression.Algorithm.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LinearRegression.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LinearRegression.Algorithm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\bin\Debug\net5.0\LinearRegression.Algorithm.deps.json
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\bin\Debug\net5.0\LinearRegression.Algorithm.dll
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\bin\Debug\net5.0\ref\LinearRegression.Algorithm.dll
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\bin\Debug\net5.0\LinearRegression.Algorithm.pdb
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\obj\Debug\net5.0\LinearRegression.Algorithm.csprojAssemblyReference.cache
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\obj\Debug\net5.0\LinearRegression.Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\obj\Debug\net5.0\LinearRegression.Algorithm.AssemblyInfoInputs.cache
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\obj\Debug\net5.0\LinearRegression.Algorithm.AssemblyInfo.cs
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\obj\Debug\net5.0\LinearRegression.Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\obj\Debug\net5.0\LinearRegression.Algorithm.dll
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\obj\Debug\net5.0\ref\LinearRegression.Algorithm.dll
+C:\Users\sebas\source\repos\LinearRegression\LinearRegression.Algorithm\obj\Debug\net5.0\LinearRegression.Algorithm.pdb
