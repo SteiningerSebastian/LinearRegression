@@ -16,6 +16,30 @@ namespace LinearRegression.Algorithm
         }
 
         /// <summary>
+        /// Evaluate the regression
+        /// </summary>
+        /// <param name="linearFunction">The function that was created using regression</param>
+        /// <returns>Retruns the Sum of the distance of each point to the line divided by the count of points.</returns>
+        public double Evaluate(LinearFunction linearFunction)
+        {
+            double sum = 0;
+
+            double x1, x2, y1, y2;
+
+            x1 = 0;
+            y1 = linearFunction.GetY(x1);
+            x2 = 100;
+            y2 = linearFunction.GetY(x2);
+
+            foreach(Point p in points_)
+            {
+                sum += Math.Abs((x2-x1)*(y1-p.Y) -(x1-p.X)*(y2-y1))/Math.Sqrt(Math.Pow(x2-x1,2)+Math.Pow(y2-y1,2));
+            }
+
+            return sum / points_.Count;
+        }
+
+        /// <summary>
         /// Executes the linear regression algorithm
         /// </summary>
         /// <returns>Returns a linear function.</returns>

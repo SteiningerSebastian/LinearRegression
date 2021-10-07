@@ -12,5 +12,6 @@
         ResizeMode="NoResize">
     <Grid>
         <Canvas x:Name="mainCanvas" Background="LightGray" MouseDown="mainCanvas_MouseDown" Loaded="mainCanvas_Loaded" ></Canvas>
+        <Label x:Name="result" Content="000" FontSize="16" Margin="10,0,730,420" Width="45px" Height="45px"  BorderThickness="0" BorderBrush="Black"/>
     </Grid>
 </Window>

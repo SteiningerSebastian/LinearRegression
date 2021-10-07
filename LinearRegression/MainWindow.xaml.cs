@@ -46,10 +46,13 @@ namespace LinearRegression.UI
             canvasHandler.SetPoint(position);
             pointList.Add(new Algorithm.Point(position.X, position.Y));
             canvasHandler.ClearLinearFunctions();
-            if(pointList.Count > 2)
+            if(pointList.Count > 1)
             {
                 canvasHandler.Brush = brush_black;
-                canvasHandler.DrawLinearFunction(linearRegression.Execute());
+                LinearFunction linearFunction = linearRegression.Execute();
+                canvasHandler.DrawLinearFunction(linearFunction);
+                double cost = Math.Round(linearRegression.Evaluate(linearFunction), 1);
+                result.Content = cost.ToString();
             }
         }
 
